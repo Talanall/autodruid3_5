@@ -1,0 +1,1 @@
+&{template:default}{{name=@{selected|token_name} (@{Form} Form): Improved Grab}}{{Damage&nbsp;(@{PrimaryAttackName} + @{SecondaryAttackName}):=[[@{PrimaryDice}+[[@{PrimaryDmgMod}+@{DamageSettings}+@{ConditionalDmg}+@{selected|WeaponSpecFeatSlam}*2]]]] plus [[@{SecondaryDice}+[[@{SecondaryDmgMod}]]]] on success}}
