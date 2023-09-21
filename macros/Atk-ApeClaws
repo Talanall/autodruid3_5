@@ -1,0 +1,1 @@
+&{template:default}{{name=@{selected|token_name} (@{Form} Form): @{PrimaryAttackName} - @{PrimaryReach}&nbsp;ft.}} {{Attack:=[[1d20+[[@{BAB}+@{Finesse}+@{Size}+@{AttackSettings}+@{ConditionalAtk}+@{selected|WeaponFocusFeatClaws}]]]]}}{{Damage:=[[@{PrimaryDice}+[[@{PrimaryDmgMod}+@{DamageSettings}+@{ConditionalDmg}+@{selected|WeaponSpecFeatClaws}*2]]]]}}
