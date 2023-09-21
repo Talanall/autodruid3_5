@@ -1,0 +1,1 @@
+&{template:default}{{name=@{selected|token_name} (@{Form} Form): Constrict}} {{Grapple:=[[1d20+[[@{BAB}+@{selected|StrMod}+@{selected|SizeMod2}+@{AttackSettings}+@{ConditionalAtk}+4*@{selected|ImpGrapFeat}]]]]}} {{Damage:=[[@{SecondaryDice}+[[@{SecondaryDmgMod}]]]] on success}}
