@@ -1,0 +1,15 @@
+#HideWhisper &{template:default}{{name=@{selected|character_name}: Wild Shape (@{selected|Form} Form) (Combat Settings)}}{{Current
+Physical
+Abilities:=**Str** @{selected|Str} (@{selected|StrMod}),
+**Dex** @{selected|Dex} (@{selected|DexMod}),
+**Con** @{selected|Con} (@{selected|ConMod}) }}{{Refresh:=[Go](~Wildshape|CombatSettingsMenu)}}{{Charge:=+@{selected|ChargeAC} atk, -@{selected|ChargeAC} AC
+[Go](!setattr --charid @{selected|character_id} --ChargeAC|2) [No](!setattr --charid @{selected|character_id} --ChargeAC|0)}}{{Combat
+Expertise:=-@{selected|CombatExpertiseSetting} atk, +@{selected|CombatExpertiseSetting} AC
+[Set](~selected|SetCombatExpertise) [Clear](!setattr --charid @{selected|character_id} --CombatExpertiseSetting|0)}}{{Dodging:=@{selected|DodgeTarget}
+[Set](~Wildshape|WildshapeSetDodge[[@{selected|DodgeFeat}*[[{{@{selected|DexMod},0}>1}]]]]) [Clear](!setattr --charid @{selected|character_id} --DodgeTarget|)}}{{Fight
+Defensively:=-[[4*@{selected|FightDefensiveSetting}]] atk, +[[@{selected|FightDefensiveSetting}*2]] AC
+[Set](!setattr --charid @{selected|character_id} --FightDefensiveSetting|1) [Clear](!setattr --charid @{selected|character_id} --FightDefensiveSetting|0)}}{{Power
+Attack:=-@{selected|PowerAttackSetting} atk, +@{selected|PowerAttackSetting}/[[2*@{selected|PowerAttackSetting}]] dmg
+(1-/2-hand)
+[Set](!setattr --charid @{selected|character_id} --PowerAttackSetting|[[@{selected|PowerAttackFeat}*[[{{@{selected|StrMod},0}>1}]]*?&lbrace;Power Attack Setting (max @&lbrace;selected&#124;BAB&rbrace;)|0}]]) [Clear](!setattr --charid @{selected|character_id} --PowerAttackSetting|0)}}{{Total
+Defense:=can't atk, +[[4*@{selected|TotalDefenseSetting}]] AC [Set](!setattr --charid @{selected|character_id} --TotalDefenseSetting|1 --FightDefensivelySetting|0) [Clear](!setattr --charid @{selected|character_id} --TotalDefenseSetting|0)}}{{Main Menu=[Go](~Wildshape|WildshapeFormsMain)}}
