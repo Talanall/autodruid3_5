@@ -1,0 +1,1 @@
+#HideWhisper **Dodging is currently unavailable for @{selected|token_name}!** Either they don't have the Dodge feat ([[@{selected|DodgeFeat}]]), or Dex modifier is too low ([[{{@{selected|DexMod},0}>1}]]).
