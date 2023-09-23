@@ -1,0 +1,1 @@
+!setattr --sel --StrMod|[[@{selected|StrMod}+2]] --ConMod|[[@{selected|ConMod}+2]] --Str|[[@{selected|Str}+4]] --Con|[[@{selected|Con}+4]] --HitPoints|[[@{selected|HitPoints}+[[2*(@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3})]]]]|[[@{selected|HitPoints|max}+2*@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3})]] --RageAC|2
