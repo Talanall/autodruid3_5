@@ -1,0 +1,6 @@
+#HideWhisper &{template:default}{{name=@{selected|character_name}: Wild Shape Options (Main Menu) - (@{selected|Wildshape} remaining) (@{selected|ElementalShape} elemental shape remaining)}}{{Current Form:=@{selected|Form}}}{{End Wild Shape:=[Go](~Wildshape|WildshapeEnd)}}{{Sub-Menus:=[A through D](~WildShape|WildshapeFormsA-D)
+[E through G](~WildShape|WildshapeFormsE-G) 
+[H through R](~WildShape|WildshapeFormsH-R) 
+[S through T](~WildShape|WildshapeFormsS-T) 
+[W through Z](~WildShape|WildshapeFormsW-Z)
+[Combat Settings](~Wildshape|CombatSettingsMenu)}}
