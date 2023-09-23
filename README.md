@@ -4,7 +4,7 @@ autodruid3_5 is a project that automates the D&D 3.5 edition druid class's wild 
 This project is incompatible with the currently-existing Roll20 character sheets for D&D 3.5e. Instead, it sets character attributes to be manipulated via a collection of preassembled API commands, chat menus, and roll templates.
 
 ## Dependencies
-Autodruid 3_5 relies on the following dependencies
+Autodruid 3_5 relies on the following [dependencies](dependencies/)
 1. A paid Roll20 Pro account.<br/> <br/>
 1. The ChatSetAttr mod, available as a 1-click install from the Mod Library<br/>or via GitHub at https://github.com/roll20/roll20-api-scripts/blob/master/ChatSetAttr/ChatSetAttr.js<br/> <br/>
 1. Token-Mod, also available as a 1-click install from the Mod Library or via<br/>GitHub at https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod<br/> <br/>
