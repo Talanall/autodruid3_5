@@ -6,10 +6,10 @@ jobs:
     name: Find and Replace
     steps:
       - uses: actions/checkout@v3
-      - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@v2
+      - name: Replace string in file
+        uses: MathieuSoysal/replace-string-in-file@v1.0.0
         with:
-          find: "@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}"
-          replace: "@{HitDiceConcatenation}"
+          old-string: @{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}
+          new-string: @{HitDiceConcatenation}
           regex: false
           include: "abilities/*"
