@@ -10,4 +10,3 @@ jobs:
         with:
           find: "@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}"
           replace: "@{HitDiceConcatenation}"
-          include: "autodruid3_5/abilities/"
