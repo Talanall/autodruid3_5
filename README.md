@@ -3,4 +3,4 @@ autodruid3_5 is a project that automates the D&D 3.5 edition druid class's wild 
 
 This project is incompatible with the currently-existing Roll20 character sheets for D&D 3.5e. Instead, it sets character attributes to be manipulated via a collection of preassembled API commands, chat menus, and roll templates.
 
-For instructions: see the Wiki
+For instructions: [see the Wiki](https://github.com/Talanall/autodruid3_5/wiki/About-autodruid3_5)
