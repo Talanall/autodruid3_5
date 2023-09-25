@@ -3,14 +3,4 @@ autodruid3_5 is a project that automates the D&D 3.5 edition druid class's wild 
 
 This project is incompatible with the currently-existing Roll20 character sheets for D&D 3.5e. Instead, it sets character attributes to be manipulated via a collection of preassembled API commands, chat menus, and roll templates.
 
-## Dependencies
-autodruid3_5 relies on the following dependencies
-1. A paid Roll20 Pro account.<br/> <br/>
-1. The ChatSetAttr mod, available as a 1-click install from the Mod Library<br/>or via GitHub at https://github.com/Roll20/roll20-api-scripts/tree/master/ChatSetAttr<br/> <br/>
-1. Token-Mod, also available as a 1-click install from the Mod Library or via<br/>GitHub at https://github.com/Roll20/roll20-api-scripts/tree/master/TokenMod<br/> <br/>
-1. The Delay mod, from https://app.roll20.net/forum/post/6533907/script-delay/?pagenum=1.<br/>I have included this script in the Autodruid 3_5 repository as [dependencies/delay.js](https://github.com/Talanall/autodruid3_5/blob/main/dependencies/delay.js). Full credit to MyRoll20Stuffs,<br/>a. k. a. Kastion the Scriptomancer. I have been unable to contact them to obtain permission.<br/> <br/>
-1. The OnMyTurn mod, from https://app.roll20.net/forum/permalink/6612955/. I have<br/>included this script in the Autodruid 3_5 repository as [dependencies/OnMyTurn.js](https://github.com/Talanall/autodruid3_5/blob/main/dependencies/OnMyTurn.js).<br/>Full credit and gratitude are owed to TheAaron for his generous permission.<br/> <br/>
-1. BlankMacroSheet3_5 must be set up. 
-
-## Setup
-To implement autodruid3_5, you must install and implement all of the dependencies listed above. See BlankMacroSheet3_5 for details on setup for that component of the dependencies.
+For instructions: see the Wiki
