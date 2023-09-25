@@ -11,4 +11,4 @@ jobs:
         with:
           old-string: '@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}'
           new-string: '@{HitDiceConcatenation}'
-          file: 'abilities/.*$'
+          file: 'abilities/.*'
