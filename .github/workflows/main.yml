@@ -1,4 +1,4 @@
-name: ReplaceHitDice
+name: My Workflow
 on: workflow_dispatch
 jobs:
   build:
@@ -6,8 +6,8 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Find and Replace
-        uses: jacobtomlinson/gha-find-replace@v3
+        uses: nguyenvanuyn96/str-find-and-replace-action@master
         with:
           find: "@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}"
           replace: "@{HitDiceConcatenation}"
-          exclude: "**/*.py" # Do not modify Python files
+          include: "abilities/"
