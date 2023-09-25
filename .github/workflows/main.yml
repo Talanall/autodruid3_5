@@ -10,3 +10,4 @@ jobs:
         with:
           find: "@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}"
           replace: "@{HitDiceConcatenation}"
+          include: "abilities/**"
