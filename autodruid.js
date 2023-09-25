@@ -1,3 +1,6 @@
+on("ready", function () {
+	        log(`-=> autodruid3_5 v0.1 <=-`);
+}); 
 on("add:character", function(obj) {
     // If there aren't any ability objects to grab, then we're probably in the middle of a sandbox spin-up
     if (findObjs({  _type: "ability"}).length === 0)
