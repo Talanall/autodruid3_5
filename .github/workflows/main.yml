@@ -1,4 +1,4 @@
-name: My Workflow
+name: ReplaceHitDice
 on: workflow_dispatch
 jobs:
   build:
