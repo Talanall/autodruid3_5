@@ -3,20 +3,6 @@ on: workflow_dispatch
 jobs:
   build:
     runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v2
-      - name: Find and Replace
-        uses: nguyenvanuyn96/str-find-and-replace-action@master
-        with:
-          find: "@{selected|HitDice}+@{selected|HitDice2}+@{selected|HitDice3}"
-          replace: "@{HitDiceConcatenation}"
-          include: "abilities/*"
-
-name: ReplaceHitDice2
-on: workflow_dispatch
-jobs:
-  build:
-    runs-on: ubuntu-latest
     name: Find and Replace
     steps:
       - uses: actions/checkout@v3
